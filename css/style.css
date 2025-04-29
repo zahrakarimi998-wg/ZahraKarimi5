@@ -1,0 +1,65 @@
+body {
+   
+    font-face{
+        font-family:'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+    }
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #16ded1, #1a1a1a);
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive monospace;
+    color: #05e48f;
+    height: 100px;
+  }
+  
+  .theater {
+    margin: 50px;
+    padding: 30px;
+    border:7px #afe10b;
+    width: 10px;
+    height: 10px;
+    background: #eb0404;
+  }
+    
+  
+  
+  .video {
+    width: 80%;
+    max-width: 800px;
+    font-size: small;
+    border: #463e25;
+    cursor: pointer;
+    color: #ffcc00;
+    transition:none;
+    text-shadow: 0 0 200px #ff6a00;
+  }
+  
+
+  .cinema {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    animation-delay: 4s;
+    border: 8px solid #ffcc00;
+    box-shadow: 0 0 30px #ffcc00;
+    padding: 40px;
+    border-radius: 20px;
+    background: #111111;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  video {
+    width: 100%;
+    max-width: 700px;
+    border: 5px solid #f90707;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ffffff;
+  }
+  
